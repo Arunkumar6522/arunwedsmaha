@@ -362,12 +362,17 @@
     </div>
 
     <div class="music">
-      <audio src="./assets/mp3/song.mp3" id="my_audio" loop="loop"></audio>
+      <audio src="./assets/mp3/Sada Nannu - SenSongsMp3.Co.mp3" id="my_audio" loop="loop" preload="auto"></audio>
     </div>
 
     <button class="musicToggle" type="button" id="musicToggle" aria-label="Toggle background music">
-      <span class="musicToggle__icon" aria-hidden="true">♪</span>
-      <span class="musicToggle__text" id="musicToggleText">Music</span>
+      <div class="musicToggle__visualizer" id="musicVisualizer">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <span class="musicToggle__text" id="musicToggleText">Music: Off</span>
     </button>
 
     <button class="langToggle" type="button" id="langToggle" aria-label="Toggle language">
