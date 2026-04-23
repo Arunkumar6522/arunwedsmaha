@@ -3,6 +3,7 @@
 		opacity: 0.9;
 		top: 0
 	}
+
 	100% {
 		opacity: 0.2;
 		top: 100%
@@ -14,6 +15,7 @@
 		opacity: 0.9;
 		top: 0
 	}
+
 	100% {
 		opacity: 0.2;
 		top: 100%
@@ -24,6 +26,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: -50%
 	}
@@ -33,6 +36,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: -50%
 	}
@@ -42,6 +46,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: -100%
 	}
@@ -51,6 +56,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: -100%
 	}
@@ -60,6 +66,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: 50%
 	}
@@ -69,6 +76,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: 50%
 	}
@@ -78,6 +86,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: 100%
 	}
@@ -87,6 +96,7 @@
 	0% {
 		margin-left: 0
 	}
+
 	100% {
 		margin-left: 100%
 	}
@@ -96,9 +106,11 @@
 	0% {
 		-webkit-transform: rotate(-5deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(28deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(3deg)
 	}
@@ -109,10 +121,12 @@
 		-ms-transform: rotate(-5deg);
 		transform: rotate(-5deg)
 	}
+
 	40% {
 		-ms-transform: rotate(28deg);
 		transform: rotate(28deg)
 	}
+
 	100% {
 		-ms-transform: rotate(3deg);
 		transform: rotate(3deg)
@@ -123,9 +137,11 @@
 	0% {
 		-webkit-transform: rotate(10deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(43deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(15deg)
 	}
@@ -136,10 +152,12 @@
 		-ms-transform: rotate(10deg);
 		transform: rotate(10deg)
 	}
+
 	40% {
 		-ms-transform: rotate(43deg);
 		transform: rotate(43deg)
 	}
+
 	100% {
 		-ms-transform: rotate(15deg);
 		transform: rotate(15deg)
@@ -150,9 +168,11 @@
 	0% {
 		-webkit-transform: rotate(15deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(56deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(22deg)
 	}
@@ -163,10 +183,12 @@
 		-ms-transform: rotate(15deg);
 		transform: rotate(15deg)
 	}
+
 	40% {
 		-ms-transform: rotate(56deg);
 		transform: rotate(56deg)
 	}
+
 	100% {
 		-ms-transform: rotate(22deg);
 		transform: rotate(22deg)
@@ -177,9 +199,11 @@
 	0% {
 		-webkit-transform: rotate(25deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(74deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(37deg)
 	}
@@ -190,10 +214,12 @@
 		-ms-transform: rotate(25deg);
 		transform: rotate(25deg)
 	}
+
 	40% {
 		-ms-transform: rotate(74deg);
 		transform: rotate(74deg)
 	}
+
 	100% {
 		-ms-transform: rotate(37deg);
 		transform: rotate(37deg)
@@ -204,9 +230,11 @@
 	0% {
 		-webkit-transform: rotate(40deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(68deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(25deg)
 	}
@@ -217,10 +245,12 @@
 		-ms-transform: rotate(40deg);
 		transform: rotate(40deg)
 	}
+
 	40% {
 		-ms-transform: rotate(68deg);
 		transform: rotate(68deg)
 	}
+
 	100% {
 		-ms-transform: rotate(25deg);
 		transform: rotate(25deg)
@@ -231,9 +261,11 @@
 	0% {
 		-webkit-transform: rotate(50deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(78deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(40deg)
 	}
@@ -244,10 +276,12 @@
 		-ms-transform: rotate(50deg);
 		transform: rotate(50deg)
 	}
+
 	40% {
 		-ms-transform: rotate(78deg);
 		transform: rotate(78deg)
 	}
+
 	100% {
 		-ms-transform: rotate(40deg);
 		transform: rotate(40deg)
@@ -258,9 +292,11 @@
 	0% {
 		-webkit-transform: rotate(65deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(92deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(58deg)
 	}
@@ -271,10 +307,12 @@
 		-ms-transform: rotate(65deg);
 		transform: rotate(65deg)
 	}
+
 	40% {
 		-ms-transform: rotate(92deg);
 		transform: rotate(92deg)
 	}
+
 	100% {
 		-ms-transform: rotate(58deg);
 		transform: rotate(58deg)
@@ -285,9 +323,11 @@
 	0% {
 		-webkit-transform: rotate(72deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(118deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(68deg)
 	}
@@ -298,10 +338,12 @@
 		-ms-transform: rotate(72deg);
 		transform: rotate(72deg)
 	}
+
 	40% {
 		-ms-transform: rotate(118deg);
 		transform: rotate(118deg)
 	}
+
 	100% {
 		-ms-transform: rotate(68deg);
 		transform: rotate(68deg)
@@ -312,9 +354,11 @@
 	0% {
 		-webkit-transform: rotate(94deg)
 	}
+
 	40% {
 		-webkit-transform: rotate(136deg)
 	}
+
 	100% {
 		-webkit-transform: rotate(82deg)
 	}
@@ -325,10 +369,12 @@
 		-ms-transform: rotate(94deg);
 		transform: rotate(94deg)
 	}
+
 	40% {
 		-ms-transform: rotate(136deg);
 		transform: rotate(136deg)
 	}
+
 	100% {
 		-ms-transform: rotate(82deg);
 		transform: rotate(82deg)
@@ -630,44 +676,71 @@ img {
 }
 
 .musicToggle:hover {
-    transform: translateY(-4px) scale(1.05);
-    background: rgba(255, 255, 255, 0.9);
-    box-shadow: 0 18px 50px rgba(103, 78, 167, 0.3);
+	transform: translateY(-4px) scale(1.05);
+	background: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 18px 50px rgba(103, 78, 167, 0.3);
 }
 
 .musicToggle__visualizer {
-    display: flex;
-    align-items: flex-end;
-    gap: 3px;
-    height: 18px;
-    width: 20px;
+	display: flex;
+	align-items: flex-end;
+	gap: 3px;
+	height: 18px;
+	width: 20px;
 }
 
 .musicToggle__visualizer span {
-    display: block;
-    width: 3px;
-    background: var(--primary);
-    border-radius: 2px;
-    transition: height 0.2s ease;
+	display: block;
+	width: 3px;
+	background: var(--primary);
+	border-radius: 2px;
+	transition: height 0.2s ease;
 }
 
-.musicToggle__visualizer span:nth-child(1) { height: 40%; }
-.musicToggle__visualizer span:nth-child(2) { height: 70%; }
-.musicToggle__visualizer span:nth-child(3) { height: 50%; }
-.musicToggle__visualizer span:nth-child(4) { height: 80%; }
+.musicToggle__visualizer span:nth-child(1) {
+	height: 40%;
+}
+
+.musicToggle__visualizer span:nth-child(2) {
+	height: 70%;
+}
+
+.musicToggle__visualizer span:nth-child(3) {
+	height: 50%;
+}
+
+.musicToggle__visualizer span:nth-child(4) {
+	height: 80%;
+}
 
 .musicToggle:not(.is-off) .musicToggle__visualizer span {
-    animation: music-bar 1s ease-in-out infinite alternate;
+	animation: music-bar 1s ease-in-out infinite alternate;
 }
 
-.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(1) { animation-delay: 0.1s; }
-.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(2) { animation-delay: 0.3s; }
-.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(3) { animation-delay: 0.2s; }
-.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(4) { animation-delay: 0.4s; }
+.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(1) {
+	animation-delay: 0.1s;
+}
+
+.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(2) {
+	animation-delay: 0.3s;
+}
+
+.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(3) {
+	animation-delay: 0.2s;
+}
+
+.musicToggle:not(.is-off) .musicToggle__visualizer span:nth-child(4) {
+	animation-delay: 0.4s;
+}
 
 @keyframes music-bar {
-    0% { height: 20%; }
-    100% { height: 100%; }
+	0% {
+		height: 20%;
+	}
+
+	100% {
+		height: 100%;
+	}
 }
 
 .musicToggle.is-off {
@@ -675,8 +748,8 @@ img {
 }
 
 .musicToggle.is-off .musicToggle__visualizer span {
-    height: 15% !important;
-    animation: none;
+	height: 15% !important;
+	animation: none;
 }
 
 .langToggle {
@@ -1374,7 +1447,7 @@ textarea:focus {
 	pointer-events: none;
 }
 
-.modal__panel > * {
+.modal__panel>* {
 	position: relative;
 	z-index: 1;
 }
