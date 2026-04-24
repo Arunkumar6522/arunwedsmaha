@@ -144,7 +144,7 @@ function applyLanguage(lang) {
     var downloadBtn = document.getElementById("downloadInvitationBtn");
     if (downloadBtn) {
         downloadBtn.textContent = t.downloadInvitationBtn;
-        downloadBtn.setAttribute("href", currentLang === "ta" ? "./assets/img/arunmaha-tamil.png" : "./assets/img/arunmaha-english.png");
+        downloadBtn.setAttribute("href", "./pdf/colored_wedding_invitation.pdf");
     }
 
     var calendarBtn = document.getElementById("saveToCalendarBtn");

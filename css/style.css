@@ -687,14 +687,15 @@ img {
 	bottom: 18px;
 	z-index: 20;
 	display: inline-flex;
-	gap: 12px;
+	gap: 6px;
 	align-items: center;
-	padding: 14px 20px;
+	padding: 10px 14px;
 	border-radius: 999px;
 	border: 1px solid rgba(255, 255, 255, 0.4);
 	background: rgba(255, 255, 255, 0.7);
 	backdrop-filter: blur(12px);
 	color: var(--primary);
+	font-size: 11px;
 	font-weight: 700;
 	cursor: pointer;
 	box-shadow: 0 12px 40px rgba(103, 78, 167, 0.22);
@@ -783,12 +784,13 @@ img {
 	right: 14px;
 	bottom: 72px;
 	z-index: 20;
-	padding: 12px 14px;
+	padding: 10px 14px;
 	border-radius: 999px;
 	border: 1px solid rgba(103, 78, 167, 0.18);
 	background: rgba(255, 255, 255, 0.86);
 	backdrop-filter: blur(10px);
 	color: var(--primary);
+	font-size: 11px;
 	font-weight: 700;
 	cursor: pointer;
 	box-shadow: 0 16px 40px rgba(0, 0, 0, 0.14);
@@ -816,9 +818,20 @@ img {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 16px;
 	padding: 0;
 	z-index: 2;
+}
+
+.hero__god {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: -25px;
+}
+
+.hero__god img {
+	width: 35px;
+	height: auto;
 }
 
 .hero__poster {
@@ -826,6 +839,8 @@ img {
 	max-width: 500px;
 	display: flex;
 	justify-content: center;
+	margin-top: -15px;
+	margin-bottom: -28px;
 }
 
 .hero__poster img {
@@ -848,11 +863,31 @@ img {
 
 .map-wrapper {
 	width: 100%;
-	border-radius: 18px;
+	border-radius: 14px;
 	overflow: hidden;
-	box-shadow: var(--shadow);
-	margin-top: 16px;
-	background: #eee;
+	margin-top: 14px;
+	border: 1px solid rgba(103, 78, 167, 0.12);
+}
+
+.sticky-footer {
+	position: fixed;
+	bottom: -25px;
+	left: -5px;
+	width: 250px;
+	z-index: 50;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 1s ease;
+}
+
+.page:not([aria-hidden="true"])~.sticky-footer,
+#invitationContent:not([aria-hidden="true"]) .sticky-footer {
+	opacity: 1;
+}
+
+.sticky-footer img {
+	width: 100%;
+	display: block;
 }
 
 .map-wrapper iframe {
@@ -999,6 +1034,11 @@ img {
 	margin: 18px 0 10px;
 }
 
+.ctaRow .btn {
+	flex: 1;
+	min-width: 140px;
+}
+
 .ctaRow--end {
 	justify-content: flex-start;
 }
@@ -1007,10 +1047,10 @@ img {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	padding: 12px 16px;
-	border-radius: 14px;
+	padding: 8px 14px;
+	border-radius: 12px;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 10px;
 	border: 1px solid transparent;
 	text-decoration: none;
 	transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease, border-color 120ms ease;

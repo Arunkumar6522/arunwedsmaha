@@ -70,6 +70,10 @@
 
     <main class="page" id="invitationContent" aria-hidden="true">
       <header class="hero" id="top">
+        <div class="hero__god">
+          <img src="./assets/img/god.png" alt="Blessings" loading="eager" />
+        </div>
+
         <div class="hero__poster">
           <img id="mainInvitationImg" src="./assets/img/arunmaha-english.png" alt="Wedding Invitation" loading="eager" />
         </div>
@@ -78,7 +82,7 @@
           <p id="heroQuoteText" class="heroQuoteText">Spare us a day of yours to make our day special</p>
         </section>
 
-        <section class="countdown" aria-label="Wedding countdown">
+        <section class="section countdown" aria-label="Wedding countdown">
           <h2 class="sectionTitle" id="countdownTitle">Counting days for our big moment</h2>
           <div id="time" class="countdown__grid" aria-live="polite"></div>
           <p class="countdown__note" id="countdownNote">We can’t wait to celebrate with you.</p>
@@ -87,18 +91,17 @@
         <section class="section section--invitation" id="invitation-download">
           <h2 class="sectionTitle" id="invitationSectionTitle">Invitation</h2>
           <div class="ctaRow">
-            <a class="btn btn--primary" id="downloadInvitationBtn" href="./assets/img/arunmaha-english.jpg" download="Arun_Maha_Invitation.jpg">Download invitation</a>
+            <a class="btn btn--primary" id="downloadInvitationBtn" href="./pdf/colored_wedding_invitation.pdf" download="Arun_Maha_Invitation.pdf">Download invitation</a>
             <button class="btn btn--secondary-outlined" type="button" id="saveToCalendarBtn">Save to calendar</button>
           </div>
         </section>
 
-        <section class="section section--map" id="map-location">
-          <h2 class="sectionTitle" id="mapSectionTitle">Location</h2>
-          <div class="map-wrapper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.85102120759524!2d80.13212126075989!3d13.123474186598582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5262f8721ffbbd%3A0x5a98459e442ce631!2sEaswari%20Mahal!5e0!3m2!1sen!2sin!4v1777014651694!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>
         </section>
       </header>
+
+      <div class="sticky-footer" id="stickyFooter">
+        <img src="./assets/img/arunmaha-engagement.png" alt="Engagement" />
+      </div>
 
       <section class="section" id="events">
         <div class="sectionHead">
@@ -179,16 +182,19 @@
         </div>
       </section>
 
-      <section class="section" id="map">
-        <h2 class="sectionTitle" id="mapTitle">Find Us Here</h2>
-        <p class="sectionSub" id="venueAddressText">
-          Eshwari Mahal A/C, Thirumullaivoyal, Chennai
-        </p>
-        <div class="ctaRow ctaRow--end">
-          <a class="btn btn--primary" id="mapLink" href="#" target="_blank" rel="noreferrer">Open in Google Maps</a>
-          <a class="btn btn--ghost" href="#top">Back to top</a>
-        </div>
-      </section>
+        <section class="section section--map" id="map">
+          <h2 class="sectionTitle" id="mapSectionTitle">Find Us Here</h2>
+          <p class="sectionSub" id="venueAddressText">
+            Eshwari Mahal A/C, Thirumullaivoyal, Chennai
+          </p>
+          <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.85102120759524!2d80.13212126075989!3d13.123474186598582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5262f8721ffbbd%3A0x5a98459e442ce631!2sEaswari%20Mahal!5e0!3m2!1sen!2sin!4v1777014651694!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="ctaRow ctaRow--end">
+            <a class="btn btn--primary" id="mapLink" href="https://maps.google.com/?q=Eshwari+Mahal+AC+Thirumullaivoyal" target="_blank" rel="noreferrer">Open in Google Maps</a>
+            <a class="btn btn--ghost" href="#top">Back to top</a>
+          </div>
+        </section>
 
       <section class="section" id="rsvp">
         <h2 class="sectionTitle">RSVP</h2>
@@ -198,7 +204,7 @@
 
         <div class="ctaRow ctaRow--end">
           <button class="btn btn--primary" type="button" data-open-rsvp>Open RSVP form</button>
-          <a class="btn btn--ghost" id="downloadCardLink" href="#" download>Download invitation</a>
+          <a class="btn btn--ghost" id="downloadCardLink" href="./pdf/colored_wedding_invitation.pdf" download="Arun_Maha_Invitation.pdf">Download invitation</a>
         </div>
 
         <p class="fineprint" id="rsvpHint">
