@@ -3,7 +3,7 @@
  */
 (function ($) {
     "use strict";
-      $('.sakura-falling').sakura();
+    $('.sakura-falling').sakura();
 })(jQuery);
 
 // ===== Configure your wedding details here (single place) =====
